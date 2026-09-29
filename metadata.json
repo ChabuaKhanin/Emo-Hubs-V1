@@ -1,0 +1,7 @@
+{
+  "name": "EMO Hub Wise Operations Dashboard",
+  "description": "100% accurate real-time operations dashboard for 19 hubs with Google Sheets sync and Gemini 3.1 Pro High Thinking analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
