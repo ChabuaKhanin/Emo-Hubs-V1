@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbztAPOnM-3qx2vgt-cLCY50G4tK3XsW8BPGNja75g6K4fi7RM4uXkWRxdI-vi-_VEGj/exec";
 const CACHE_KEY = "emo-hub-wise-cache-v2";
@@ -460,6 +461,7 @@ export default function App() {
       <footer className="mt-8 text-center text-xs text-slate-400 py-2">
         EMO HUB WISE • Sarfaraz Nawab Operations Span • Zero-Delay Local Cache Engine
       </footer>
+      <Analytics />
     </div>
   );
 }
